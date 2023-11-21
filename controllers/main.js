@@ -7,7 +7,7 @@
 const jwt = require('jsonwebtoken')
 const { Error } = require('mongoose')
 const CustomAPIError = require('../errors/custom-error')
- const {BadRequestError} = require('../errors')
+ const { BadRequestError } = require('../errors')
 const login = async (req, res) => {
     const{username,password} = req.body
 
